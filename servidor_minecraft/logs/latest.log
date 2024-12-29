@@ -2553,3 +2553,33 @@ java.net.UnknownHostException: cd-vic.gl.joinmc.link: No address associated with
 [29Dec2024 02:00:56.169] [Worker-Main-4/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/entity/animal/horse/Variant
 [29Dec2024 02:00:56.177] [Worker-Main-4/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/entity/animal/horse/Markings
 [29Dec2024 02:01:59.101] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: CT4724 has made the advancement [Tools of the Trade]
+[29Dec2024 02:09:12.594] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/p3pp3rf1y/sophisticatedbackpacks/common/gui/BackpackContext$ContextType
+[29Dec2024 02:11:20.338] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/Explosion$BlockInteraction
+[29Dec2024 02:14:10.997] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: CT4724 has reached the goal [Quaint Scribe]
+[29Dec2024 02:14:32.448] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: CT4724 lost connection: Disconnected
+[29Dec2024 02:14:32.449] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: CT4724 left the game
+[29Dec2024 02:14:32.453] [Server thread/INFO] [com.alrex.parcool.ParCool/]: Limitation of 1cc38527-27a2-3753-b36f-f009ee60ab1f was unloaded
+[29Dec2024 02:14:32.456] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client CT4724
+[29Dec2024 02:17:20.440] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting yesman/epicfight/network/server/SPSetSkillValue$Target
+[29Dec2024 02:17:23.639] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Nano0918 was shot by Skeleton
+[29Dec2024 02:17:23.644] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting ovh/corail/tombstone/helper/SpawnHelper$SpawnResult
+[29Dec2024 02:17:23.655] [Server thread/INFO] [tombstone/]: The player Nano0918 has successfully been saved
+[29Dec2024 02:17:25.415] [Server thread/WARN] [treechop/]: Player ServerPlayer['Nano0918'/673, l='ServerLevel[world]', x=-191.70, y=72.00, z=58.93, removed=KILLED] is missing chop settings
+[29Dec2024 02:18:42.702] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting ht/treechop/common/properties/ChoppedLogShape
+[29Dec2024 02:18:42.707] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting ht/treechop/common/util/FaceShape
+[29Dec2024 02:19:57.528] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@310a7e55
+[29Dec2024 02:19:57.544] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: CT4724[/127.28.250.6:54157] logged in with entity id 24046 at (-665.1330847916886, 75.0, 118.65004918463015)
+[29Dec2024 02:19:57.564] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: CT4724 joined the game
+[29Dec2024 02:19:57.588] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: CT4724 has made the advancement [Mysterious Gift]
+[29Dec2024 02:19:57.590] [Server thread/INFO] [untamedwilds.UntamedWilds/]: Firing player login event
+[29Dec2024 02:19:57.592] [Server thread/INFO] [Waila/]: Syncing config to CT4724 (1cc38527-27a2-3753-b36f-f009ee60ab1f)
+[29Dec2024 02:19:58.003] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/levelgen/structure/StructureCheckResult
+[29Dec2024 02:19:58.037] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting ovh/corail/tombstone/helper/SupportStructures
+[29Dec2024 02:19:58.042] [Server thread/INFO] [com.alrex.parcool.ParCool/]: Limitation of 1cc38527-27a2-3753-b36f-f009ee60ab1f was loaded
+[29Dec2024 02:19:58.044] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of CT4724 (18)
+[29Dec2024 02:19:58.045] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to CT4724
+[29Dec2024 02:20:10.251] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: CT4724 lost connection: Disconnected
+[29Dec2024 02:20:10.252] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: CT4724 left the game
+[29Dec2024 02:20:10.252] [Server thread/INFO] [com.alrex.parcool.ParCool/]: Limitation of 1cc38527-27a2-3753-b36f-f009ee60ab1f was unloaded
+[29Dec2024 02:20:10.253] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client CT4724
+[29Dec2024 02:21:58.334] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting yesman/epicfight/network/server/SPSkillExecutionFeedback$FeedbackType
