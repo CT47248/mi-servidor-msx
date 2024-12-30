@@ -47,15 +47,15 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/white_bed": {
-    "criteria": {
-      "has_white_wool": "2024-12-29 15:15:46 +0000"
-    },
-    "done": true
-  },
   "spartanweaponry:recipes/spartanweaponry.basic/wooden_katana": {
     "criteria": {
       "has_wood": "2024-12-29 15:04:45 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/white_bed": {
+    "criteria": {
+      "has_white_wool": "2024-12-29 15:15:46 +0000"
     },
     "done": true
   },
@@ -89,15 +89,15 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/campfire": {
-    "criteria": {
-      "has_stick": "2024-12-29 15:18:07 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/magenta_wool": {
     "criteria": {
       "has_white_wool": "2024-12-29 15:15:46 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/campfire": {
+    "criteria": {
+      "has_stick": "2024-12-29 15:18:07 +0000"
     },
     "done": true
   },
@@ -107,15 +107,15 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/ladder": {
-    "criteria": {
-      "has_stick": "2024-12-29 15:18:07 +0000"
-    },
-    "done": true
-  },
   "cfm:recipes/cfm/stripped_acacia_table": {
     "criteria": {
       "has_planks": "2024-12-29 15:18:06 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/ladder": {
+    "criteria": {
+      "has_stick": "2024-12-29 15:18:07 +0000"
     },
     "done": true
   },
@@ -209,15 +209,15 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/jukebox": {
-    "criteria": {
-      "has_diamond": "2024-12-29 15:06:13 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/transportation/spruce_boat": {
     "criteria": {
       "in_water": "2024-12-29 15:02:44 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/jukebox": {
+    "criteria": {
+      "has_diamond": "2024-12-29 15:06:13 +0000"
     },
     "done": true
   },
@@ -233,15 +233,9 @@
     },
     "done": true
   },
-  "botania:recipes/botania/quartz_sunny": {
+  "create:recipes/create.palettes/oak_window": {
     "criteria": {
-      "has_item": "2024-12-29 15:06:14 +0000"
-    },
-    "done": true
-  },
-  "create:recipes/create.palettes/crafting/kinetics/yellow_seat": {
-    "criteria": {
-      "has_wool": "2024-12-29 15:15:46 +0000"
+      "has_ingredient": "2024-12-29 15:04:45 +0000"
     },
     "done": true
   },
@@ -251,9 +245,15 @@
     },
     "done": true
   },
-  "create:recipes/create.palettes/oak_window": {
+  "botania:recipes/botania/quartz_sunny": {
     "criteria": {
-      "has_ingredient": "2024-12-29 15:04:45 +0000"
+      "has_item": "2024-12-29 15:06:14 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/create.palettes/crafting/kinetics/yellow_seat": {
+    "criteria": {
+      "has_wool": "2024-12-29 15:15:46 +0000"
     },
     "done": true
   },
@@ -413,15 +413,15 @@
     },
     "done": true
   },
-  "aquaculture:recipes/tools/diamond_fillet_knife": {
-    "criteria": {
-      "has_items": "2024-12-29 15:06:13 +0000"
-    },
-    "done": true
-  },
   "spartanweaponry:recipes/spartanweaponry.basic/wooden_rapier": {
     "criteria": {
       "has_wood": "2024-12-29 15:04:45 +0000"
+    },
+    "done": true
+  },
+  "aquaculture:recipes/tools/diamond_fillet_knife": {
+    "criteria": {
+      "has_items": "2024-12-29 15:06:13 +0000"
     },
     "done": true
   },
@@ -504,15 +504,15 @@
     },
     "done": true
   },
-  "cfm:recipes/cfm/stripped_acacia_kitchen_counter": {
-    "criteria": {
-      "has_log": "2024-12-29 15:18:06 +0000"
-    },
-    "done": true
-  },
   "chiselsandbits:recipes/chiselsandbits/wrench": {
     "criteria": {
       "has_p": "2024-12-29 15:04:45 +0000"
+    },
+    "done": true
+  },
+  "cfm:recipes/cfm/stripped_acacia_kitchen_counter": {
+    "criteria": {
+      "has_log": "2024-12-29 15:18:06 +0000"
     },
     "done": true
   },
@@ -594,9 +594,9 @@
     },
     "done": true
   },
-  "spartanweaponry:recipes/spartanweaponry.basic/simple_handle": {
+  "spartanweaponry:recipes/spartanweaponry.basic/wooden_warhammer": {
     "criteria": {
-      "has_stick": "2024-12-29 15:18:07 +0000"
+      "has_wood": "2024-12-29 15:04:45 +0000"
     },
     "done": true
   },
@@ -606,9 +606,9 @@
     },
     "done": false
   },
-  "spartanweaponry:recipes/spartanweaponry.basic/wooden_warhammer": {
+  "spartanweaponry:recipes/spartanweaponry.basic/simple_handle": {
     "criteria": {
-      "has_wood": "2024-12-29 15:04:45 +0000"
+      "has_stick": "2024-12-29 15:18:07 +0000"
     },
     "done": true
   },
@@ -618,21 +618,27 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/blue_wool": {
-    "criteria": {
-      "has_white_wool": "2024-12-29 15:15:46 +0000"
-    },
-    "done": true
-  },
   "spartanweaponry:recipes/spartanweaponry.basic/wooden_throwing_knife": {
     "criteria": {
       "has_wood": "2024-12-29 15:04:45 +0000"
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/blue_wool": {
+    "criteria": {
+      "has_white_wool": "2024-12-29 15:15:46 +0000"
+    },
+    "done": true
+  },
   "minecraft:story/obtain_armor": {
     "criteria": {
       "iron_leggings": "2024-12-29 15:06:14 +0000"
+    },
+    "done": true
+  },
+  "aquaculture:recipes/aquaculture/light_hook": {
+    "criteria": {
+      "has_items": "2024-12-29 15:02:43 +0000"
     },
     "done": true
   },
@@ -648,9 +654,9 @@
     },
     "done": true
   },
-  "aquaculture:recipes/aquaculture/light_hook": {
+  "spartanweaponry:recipes/spartanweaponry.basic/wooden_spear": {
     "criteria": {
-      "has_items": "2024-12-29 15:02:43 +0000"
+      "has_wood": "2024-12-29 15:04:45 +0000"
     },
     "done": true
   },
@@ -660,19 +666,7 @@
     },
     "done": true
   },
-  "spartanweaponry:recipes/spartanweaponry.basic/wooden_spear": {
-    "criteria": {
-      "has_wood": "2024-12-29 15:04:45 +0000"
-    },
-    "done": true
-  },
   "spartanweaponry:recipes/spartanweaponry.basic/diamond_rapier": {
-    "criteria": {
-      "has_diamond": "2024-12-29 15:06:13 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/combat/diamond_leggings": {
     "criteria": {
       "has_diamond": "2024-12-29 15:06:13 +0000"
     },
@@ -681,6 +675,12 @@
   "spartanweaponry:recipes/spartanweaponry.basic/wooden_longbow": {
     "criteria": {
       "has_wood": "2024-12-29 15:04:45 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/diamond_leggings": {
+    "criteria": {
+      "has_diamond": "2024-12-29 15:06:13 +0000"
     },
     "done": true
   },
@@ -720,15 +720,15 @@
     },
     "done": true
   },
-  "create:recipes/create.palettes/crafting/kinetics/red_seat": {
-    "criteria": {
-      "has_wool": "2024-12-29 15:15:46 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/transportation/birch_boat": {
     "criteria": {
       "in_water": "2024-12-29 15:02:44 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/create.palettes/crafting/kinetics/red_seat": {
+    "criteria": {
+      "has_wool": "2024-12-29 15:15:46 +0000"
     },
     "done": true
   },
@@ -768,12 +768,6 @@
     },
     "done": true
   },
-  "iobaddons:recipes/dragon_whistle": {
-    "criteria": {
-      "has_stick": "2024-12-29 15:18:07 +0000"
-    },
-    "done": true
-  },
   "aquaculture:recipes/misc/red_mushroom_from_fish": {
     "criteria": {
       "has_items": "2024-12-29 15:02:43 +0000"
@@ -783,6 +777,12 @@
   "aquaculture:recipes/tools/diamond_fishing_rod": {
     "criteria": {
       "has_vanilla_rod": "2024-12-29 15:02:43 +0000"
+    },
+    "done": true
+  },
+  "iobaddons:recipes/dragon_whistle": {
+    "criteria": {
+      "has_stick": "2024-12-29 15:18:07 +0000"
     },
     "done": true
   },
@@ -798,15 +798,15 @@
     },
     "done": true
   },
-  "knightquest:recipes/misc/chainmail_helmet2": {
-    "criteria": {
-      "has_wheat_seeds": "2024-12-29 15:15:46 +0000"
-    },
-    "done": true
-  },
   "spartanweaponry:recipes/spartanweaponry.basic/diamond_saber": {
     "criteria": {
       "has_diamond": "2024-12-29 15:06:13 +0000"
+    },
+    "done": true
+  },
+  "knightquest:recipes/misc/chainmail_helmet2": {
+    "criteria": {
+      "has_wheat_seeds": "2024-12-29 15:15:46 +0000"
     },
     "done": true
   },
@@ -822,12 +822,6 @@
     },
     "done": true
   },
-  "spartanweaponry:recipes/spartanweaponry.basic/handle_from_leather": {
-    "criteria": {
-      "has_stick": "2024-12-29 15:18:07 +0000"
-    },
-    "done": true
-  },
   "minecraft:adventure/root": {
     "criteria": {
       "killed_by_something": "2024-12-29 15:05:59 +0000"
@@ -837,6 +831,12 @@
   "spartanshields:recipes/spartanshields/diamond_tower_shield": {
     "criteria": {
       "has_diamond": "2024-12-29 15:06:13 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/spartanweaponry.basic/handle_from_leather": {
+    "criteria": {
+      "has_stick": "2024-12-29 15:18:07 +0000"
     },
     "done": true
   },
@@ -864,6 +864,12 @@
     },
     "done": true
   },
+  "tombstone:adventure/enchant_grave_key": {
+    "criteria": {
+      "has_upgraded_grave_key": "2024-12-29 15:06:01 +0000"
+    },
+    "done": true
+  },
   "knightquest:recipes/misc/uchigatana_katana": {
     "criteria": {
       "has_diamond": "2024-12-29 15:06:13 +0000"
@@ -873,12 +879,6 @@
   "botania:recipes/botania/lexicon": {
     "criteria": {
       "has_item": "2024-12-29 15:18:06 +0000"
-    },
-    "done": true
-  },
-  "tombstone:adventure/enchant_grave_key": {
-    "criteria": {
-      "has_upgraded_grave_key": "2024-12-29 15:06:01 +0000"
     },
     "done": true
   },
@@ -900,16 +900,22 @@
     },
     "done": true
   },
+  "aquaculture:recipes/misc/iron_nugget_from_blasting": {
+    "criteria": {
+      "has_fishing_rod": "2024-12-29 15:02:43 +0000",
+      "has_fillet_knife": "2024-12-29 15:02:43 +0000"
+    },
+    "done": true
+  },
   "cfm:recipes/cfm/acacia_kitchen_sink_dark": {
     "criteria": {
       "has_bottom": "2024-12-29 15:18:30 +0000"
     },
     "done": true
   },
-  "aquaculture:recipes/misc/iron_nugget_from_blasting": {
+  "minecraft:recipes/tools/diamond_shovel": {
     "criteria": {
-      "has_fishing_rod": "2024-12-29 15:02:43 +0000",
-      "has_fillet_knife": "2024-12-29 15:02:43 +0000"
+      "has_diamond": "2024-12-29 15:06:13 +0000"
     },
     "done": true
   },
@@ -918,12 +924,6 @@
       "minecraft:zombie": "2024-12-29 15:15:30 +0000"
     },
     "done": false
-  },
-  "minecraft:recipes/tools/diamond_shovel": {
-    "criteria": {
-      "has_diamond": "2024-12-29 15:06:13 +0000"
-    },
-    "done": true
   },
   "aquaculture:recipes/building_blocks/planks_from_driftwood": {
     "criteria": {
@@ -997,15 +997,15 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/gold_ingot_from_nuggets": {
-    "criteria": {
-      "has_gold_nugget": "2024-12-29 15:12:21 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/chain": {
     "criteria": {
       "has_iron_nugget": "2024-12-29 15:12:19 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_ingot_from_nuggets": {
+    "criteria": {
+      "has_gold_nugget": "2024-12-29 15:12:21 +0000"
     },
     "done": true
   },
@@ -1045,12 +1045,6 @@
     },
     "done": true
   },
-  "knightquest:recipes/misc/strawhat_boots": {
-    "criteria": {
-      "has_white_wool": "2024-12-29 15:15:46 +0000"
-    },
-    "done": true
-  },
   "aquaculture:recipes/misc/neptinium_ingot_from_blasting": {
     "criteria": {
       "has_leggings": "2024-12-29 15:02:43 +0000",
@@ -1068,6 +1062,12 @@
     },
     "done": true
   },
+  "knightquest:recipes/misc/strawhat_boots": {
+    "criteria": {
+      "has_white_wool": "2024-12-29 15:15:46 +0000"
+    },
+    "done": true
+  },
   "knightquest:recipes/misc/creeper_helmet": {
     "criteria": {
       "has_gunpowder": "2024-12-29 15:04:50 +0000"
@@ -1080,27 +1080,27 @@
     },
     "done": true
   },
-  "spartanweaponry:recipes/spartanweaponry.basic/diamond_heavy_crossbow": {
-    "criteria": {
-      "has_diamond": "2024-12-29 15:06:13 +0000"
-    },
-    "done": true
-  },
   "supplementaries:recipes/sign_post_minecraft/oak": {
     "criteria": {
       "has_plank": "2024-12-29 15:04:45 +0000"
     },
     "done": true
   },
-  "immersive_armors:recipes/misc/wooden": {
+  "spartanweaponry:recipes/spartanweaponry.basic/diamond_heavy_crossbow": {
     "criteria": {
-      "has_item": "2024-12-29 15:18:06 +0000"
+      "has_diamond": "2024-12-29 15:06:13 +0000"
     },
     "done": true
   },
   "chiselsandbits:recipes/chiselsandbits/bit_bag": {
     "criteria": {
       "has_w": "2024-12-29 15:15:46 +0000"
+    },
+    "done": true
+  },
+  "immersive_armors:recipes/misc/wooden": {
+    "criteria": {
+      "has_item": "2024-12-29 15:18:06 +0000"
     },
     "done": true
   },
@@ -1182,15 +1182,15 @@
     },
     "done": true
   },
-  "minecraft:recipes/redstone/acacia_pressure_plate": {
-    "criteria": {
-      "has_planks": "2024-12-29 15:18:30 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/tools/diamond_axe": {
     "criteria": {
       "has_diamond": "2024-12-29 15:06:13 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/acacia_pressure_plate": {
+    "criteria": {
+      "has_planks": "2024-12-29 15:18:30 +0000"
     },
     "done": true
   },
@@ -1200,15 +1200,15 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/brown_wool": {
-    "criteria": {
-      "has_white_wool": "2024-12-29 15:15:46 +0000"
-    },
-    "done": true
-  },
   "spartanshields:recipes/spartanshields/wooden_tower_shield": {
     "criteria": {
       "has_planks": "2024-12-29 15:04:45 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/brown_wool": {
+    "criteria": {
+      "has_white_wool": "2024-12-29 15:15:46 +0000"
     },
     "done": true
   },
@@ -1218,15 +1218,15 @@
     },
     "done": true
   },
-  "knightquest:recipes/misc/creeper_leggings": {
-    "criteria": {
-      "has_gunpowder": "2024-12-29 15:04:50 +0000"
-    },
-    "done": true
-  },
   "aquaculture:recipes/aquaculture/redstone_hook": {
     "criteria": {
       "has_items": "2024-12-29 15:02:43 +0000"
+    },
+    "done": true
+  },
+  "knightquest:recipes/misc/creeper_leggings": {
+    "criteria": {
+      "has_gunpowder": "2024-12-29 15:04:50 +0000"
     },
     "done": true
   },
@@ -1290,15 +1290,15 @@
     },
     "done": true
   },
-  "dungeons_arise:find_illager_corsair_or_illager_galley": {
-    "criteria": {
-      "location1": "2024-12-29 15:04:00 +0000"
-    },
-    "done": true
-  },
   "mowziesmobs:root": {
     "criteria": {
       "custom_test_name": "2024-12-29 15:02:43 +0000"
+    },
+    "done": true
+  },
+  "dungeons_arise:find_illager_corsair_or_illager_galley": {
+    "criteria": {
+      "location1": "2024-12-29 15:04:00 +0000"
     },
     "done": true
   },
@@ -1308,15 +1308,15 @@
     },
     "done": true
   },
-  "cfm:recipes/cfm/acacia_kitchen_sink_light": {
-    "criteria": {
-      "has_bottom": "2024-12-29 15:18:30 +0000"
-    },
-    "done": true
-  },
   "chiselsandbits:recipes/chiselsandbits/chisel_stone": {
     "criteria": {
       "has_rod": "2024-12-29 15:18:07 +0000"
+    },
+    "done": true
+  },
+  "cfm:recipes/cfm/acacia_kitchen_sink_light": {
+    "criteria": {
+      "has_bottom": "2024-12-29 15:18:30 +0000"
     },
     "done": true
   },
@@ -1362,15 +1362,15 @@
     },
     "done": true
   },
-  "knightquest:recipes/misc/creeper_boots": {
-    "criteria": {
-      "has_gunpowder": "2024-12-29 15:04:50 +0000"
-    },
-    "done": true
-  },
   "tombstone:adventure/root": {
     "criteria": {
       "auto": "2024-12-29 15:02:43 +0000"
+    },
+    "done": true
+  },
+  "knightquest:recipes/misc/creeper_boots": {
+    "criteria": {
+      "has_gunpowder": "2024-12-29 15:04:50 +0000"
     },
     "done": true
   },
@@ -1386,15 +1386,15 @@
     },
     "done": true
   },
-  "create:recipes/create.palettes/crafting/kinetics/brown_seat": {
-    "criteria": {
-      "has_wool": "2024-12-29 15:15:46 +0000"
-    },
-    "done": true
-  },
   "botania:recipes/botania/quartz_dark": {
     "criteria": {
       "has_item": "2024-12-29 15:06:14 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/create.palettes/crafting/kinetics/brown_seat": {
+    "criteria": {
+      "has_wool": "2024-12-29 15:15:46 +0000"
     },
     "done": true
   },
@@ -1464,15 +1464,15 @@
     },
     "done": true
   },
-  "knightquest:recipes/misc/uchigatana": {
-    "criteria": {
-      "has_diamond": "2024-12-29 15:06:13 +0000"
-    },
-    "done": true
-  },
   "cfm:recipes/cfm/oak_desk": {
     "criteria": {
       "has_planks": "2024-12-29 15:04:45 +0000"
+    },
+    "done": true
+  },
+  "knightquest:recipes/misc/uchigatana": {
+    "criteria": {
+      "has_diamond": "2024-12-29 15:06:13 +0000"
     },
     "done": true
   },
@@ -1518,15 +1518,15 @@
     },
     "done": true
   },
-  "minecraft:recipes/combat/crossbow": {
-    "criteria": {
-      "has_stick": "2024-12-29 15:18:07 +0000"
-    },
-    "done": true
-  },
   "cfm:recipes/cfm/acacia_blinds": {
     "criteria": {
       "has_log": "2024-12-29 15:18:06 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/crossbow": {
+    "criteria": {
+      "has_stick": "2024-12-29 15:18:07 +0000"
     },
     "done": true
   },
@@ -1699,15 +1699,15 @@
     },
     "done": true
   },
-  "spartanweaponry:recipes/spartanweaponry.basic/diamond_boomerang": {
-    "criteria": {
-      "has_diamond": "2024-12-29 15:06:13 +0000"
-    },
-    "done": true
-  },
   "spartanweaponry:recipes/spartanweaponry.basic/wooden_javelin": {
     "criteria": {
       "has_wood": "2024-12-29 15:04:45 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/spartanweaponry.basic/diamond_boomerang": {
+    "criteria": {
+      "has_diamond": "2024-12-29 15:06:13 +0000"
     },
     "done": true
   },
@@ -1759,15 +1759,15 @@
     },
     "done": true
   },
-  "create:recipes/create.palettes/crafting/kinetics/pink_seat": {
-    "criteria": {
-      "has_wool": "2024-12-29 15:15:46 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/misc/iron_ingot_from_nuggets": {
     "criteria": {
       "has_iron_nugget": "2024-12-29 15:12:19 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/create.palettes/crafting/kinetics/pink_seat": {
+    "criteria": {
+      "has_wool": "2024-12-29 15:15:46 +0000"
     },
     "done": true
   },
@@ -1838,21 +1838,15 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/diamond_block": {
-    "criteria": {
-      "has_diamond": "2024-12-29 15:06:13 +0000"
-    },
-    "done": true
-  },
   "aquaculture:recipes/aquaculture/iron_hook": {
     "criteria": {
       "has_items": "2024-12-29 15:02:43 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/redstone/daylight_detector": {
+  "minecraft:recipes/building_blocks/diamond_block": {
     "criteria": {
-      "has_quartz": "2024-12-29 15:06:14 +0000"
+      "has_diamond": "2024-12-29 15:06:13 +0000"
     },
     "done": true
   },
@@ -1862,15 +1856,15 @@
     },
     "done": true
   },
-  "botania:recipes/botania/quartz_blaze": {
+  "minecraft:recipes/redstone/daylight_detector": {
     "criteria": {
-      "has_item": "2024-12-29 15:06:14 +0000"
+      "has_quartz": "2024-12-29 15:06:14 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/pink_wool": {
+  "botania:recipes/botania/quartz_blaze": {
     "criteria": {
-      "has_white_wool": "2024-12-29 15:15:46 +0000"
+      "has_item": "2024-12-29 15:06:14 +0000"
     },
     "done": true
   },
@@ -1880,15 +1874,15 @@
     },
     "done": true
   },
-  "knightquest:recipes/misc/conquistador3_helmet": {
+  "minecraft:recipes/building_blocks/pink_wool": {
     "criteria": {
-      "has_diamond": "2024-12-29 15:06:13 +0000"
+      "has_white_wool": "2024-12-29 15:15:46 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/decorations/acacia_sign": {
+  "knightquest:recipes/misc/conquistador3_helmet": {
     "criteria": {
-      "has_planks": "2024-12-29 15:18:30 +0000"
+      "has_diamond": "2024-12-29 15:06:13 +0000"
     },
     "done": true
   },
@@ -1898,9 +1892,9 @@
     },
     "done": true
   },
-  "spartanweaponry:recipes/spartanweaponry.basic/wooden_tomahawk": {
+  "minecraft:recipes/decorations/acacia_sign": {
     "criteria": {
-      "has_wood": "2024-12-29 15:04:45 +0000"
+      "has_planks": "2024-12-29 15:18:30 +0000"
     },
     "done": true
   },
@@ -1913,6 +1907,12 @@
   "aquaculture:recipes/decorations/jungle_fish_mount": {
     "criteria": {
       "has_items": "2024-12-29 15:02:43 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/spartanweaponry.basic/wooden_tomahawk": {
+    "criteria": {
+      "has_wood": "2024-12-29 15:04:45 +0000"
     },
     "done": true
   },
@@ -1934,15 +1934,15 @@
     },
     "done": true
   },
-  "chiselsandbits:recipes/chiselsandbits/chisel_gold": {
-    "criteria": {
-      "has_rod": "2024-12-29 15:18:07 +0000"
-    },
-    "done": true
-  },
   "spartanweaponry:recipes/spartanweaponry.basic/wooden_heavy_crossbow": {
     "criteria": {
       "has_wood": "2024-12-29 15:04:45 +0000"
+    },
+    "done": true
+  },
+  "chiselsandbits:recipes/chiselsandbits/chisel_gold": {
+    "criteria": {
+      "has_rod": "2024-12-29 15:18:07 +0000"
     },
     "done": true
   },
@@ -1976,15 +1976,15 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/gold_nugget_from_smelting": {
-    "criteria": {
-      "has_golden_helmet": "2024-12-29 15:12:17 +0000"
-    },
-    "done": true
-  },
   "spartanweaponry:recipes/spartanweaponry.basic/wooden_battle_hammer": {
     "criteria": {
       "has_wood": "2024-12-29 15:04:45 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_nugget_from_smelting": {
+    "criteria": {
+      "has_golden_helmet": "2024-12-29 15:12:17 +0000"
     },
     "done": true
   },

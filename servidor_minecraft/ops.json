@@ -1,1 +1,8 @@
-[]
+[
+  {
+    "uuid": "38bcc23f-fee4-3d95-b984-a36f963ea5ba",
+    "name": "nutri",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  }
+]
