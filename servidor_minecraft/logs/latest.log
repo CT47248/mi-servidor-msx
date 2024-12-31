@@ -2506,3 +2506,185 @@ com.google.gson.JsonSyntaxException: Expected '}' at position 19: ...ame:exiled<
 [31Dec2024 15:05:31.105] [Worker-Main-24/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/levelgen/feature/NoiseEffect
 [31Dec2024 15:07:10.490] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting yesman/epicfight/network/client/CPExecuteSkill$WorkType
 [31Dec2024 15:07:10.493] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting yesman/epicfight/world/entity/eventlistener/ComboCounterHandleEvent$Causal
+[31Dec2024 15:07:25.846] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting fuzs/puzzleslib/api/event/v1/core/EventResult
+[31Dec2024 15:07:25.848] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting yesman/epicfight/skill/guard/GuardSkill$BlockType
+[31Dec2024 15:08:01.968] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/block/DoubleBlockCombiner$BlockType
+[31Dec2024 15:08:24.943] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/entity/player/Player$BedSleepingProblem
+[31Dec2024 15:08:25.723] [Server thread/INFO] [sereneseasons/]: Season time skipped by 9522 in minecraft:overworld
+[31Dec2024 15:08:25.751] [Server thread/INFO] [sereneseasons/]: Season time skipped by 9522 in minecraft:the_nether
+[31Dec2024 15:08:25.751] [Server thread/INFO] [sereneseasons/]: Season time skipped by 9522 in minecraft:the_end
+[31Dec2024 15:11:36.703] [Server thread/FATAL] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/Minecraft for invalid dist DEDICATED_SERVER
+[31Dec2024 15:11:36.704] [Server thread/ERROR] [net.minecraft.network.protocol.PacketUtils/]: Failed to handle packet net.minecraft.network.protocol.game.ServerboundInteractPacket@385c35b2, suppressing error
+java.lang.RuntimeException: Attempted to load class net/minecraft/client/Minecraft for invalid dist DEDICATED_SERVER
+	at net.minecraftforge.fml.loading.RuntimeDistCleaner.processClassWithFlags(RuntimeDistCleaner.java:57) ~[fmlloader-1.18.2-40.2.17.jar%2318!/:1.0]
+	at cpw.mods.modlauncher.LaunchPluginHandler.offerClassNodeToPlugins(LaunchPluginHandler.java:88) ~[modlauncher-9.1.3.jar%235!/:?]
+	at cpw.mods.modlauncher.ClassTransformer.transform(ClassTransformer.java:120) ~[modlauncher-9.1.3.jar%235!/:?]
+	at cpw.mods.modlauncher.TransformingClassLoader.maybeTransformClassBytes(TransformingClassLoader.java:50) ~[modlauncher-9.1.3.jar%235!/:?]
+	at cpw.mods.cl.ModuleClassLoader.readerToClass(ModuleClassLoader.java:113) ~[securejarhandler-1.0.8.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.lambda$findClass$15(ModuleClassLoader.java:219) ~[securejarhandler-1.0.8.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.loadFromModule(ModuleClassLoader.java:229) ~[securejarhandler-1.0.8.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.findClass(ModuleClassLoader.java:219) ~[securejarhandler-1.0.8.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.loadClass(ModuleClassLoader.java:135) ~[securejarhandler-1.0.8.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:526) ~[?:?]
+	at net.minecraftforge.network.simple.SimpleChannel.sendToServer(SimpleChannel.java:96) ~[forge-1.18.2-40.2.17-universal.jar%23137!/:?]
+	at com.GACMD.isleofberk.entity.dragons.terrible_terror.TerribleTerror.ridePlayer(TerribleTerror.java:446) ~[isleofberk-1.2.0.jar%2394!/:1.2.0]
+	at com.GACMD.isleofberk.entity.dragons.terrible_terror.TerribleTerror.m_6071_(TerribleTerror.java:393) ~[isleofberk-1.2.0.jar%2394!/:1.2.0]
+	at net.minecraft.world.entity.Mob.m_6096_(Mob.java:1054) ~[server-1.18.2-20220404.173914-srg.jar%23132!/:?]
+	at net.minecraft.world.entity.player.Player.m_36157_(Player.java:968) ~[server-1.18.2-20220404.173914-srg.jar%23132!/:?]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl$1.m_143678_(ServerGamePacketListenerImpl.java:1228) ~[server-1.18.2-20220404.173914-srg.jar%23132!/:?]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl$1.m_142299_(ServerGamePacketListenerImpl.java:1239) ~[server-1.18.2-20220404.173914-srg.jar%23132!/:?]
+	at net.minecraft.network.protocol.game.ServerboundInteractPacket$InteractionAction.m_142457_(ServerboundInteractPacket.java:116) ~[server-1.18.2-20220404.173914-srg.jar%23132!/:?]
+	at net.minecraft.network.protocol.game.ServerboundInteractPacket.m_179617_(ServerboundInteractPacket.java:66) ~[server-1.18.2-20220404.173914-srg.jar%23132!/:?]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.m_6946_(ServerGamePacketListenerImpl.java:1224) ~[server-1.18.2-20220404.173914-srg.jar%23132!/:?]
+	at net.minecraft.network.protocol.game.ServerboundInteractPacket.m_5797_(ServerboundInteractPacket.java:53) ~[server-1.18.2-20220404.173914-srg.jar%23132!/:?]
+	at net.minecraft.network.protocol.game.ServerboundInteractPacket.m_5797_(ServerboundInteractPacket.java:13) ~[server-1.18.2-20220404.173914-srg.jar%23132!/:?]
+	at net.minecraft.network.protocol.PacketUtils.m_131356_(PacketUtils.java:22) ~[server-1.18.2-20220404.173914-srg.jar%23132!/:?]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[server-1.18.2-20220404.173914-srg.jar%23132!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:157) ~[server-1.18.2-20220404.173914-srg.jar%23132!/:?]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23) ~[server-1.18.2-20220404.173914-srg.jar%23132!/:?]
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:799) ~[server-1.18.2-20220404.173914-srg.jar%23132!/:?]
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:164) ~[server-1.18.2-20220404.173914-srg.jar%23132!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:131) ~[server-1.18.2-20220404.173914-srg.jar%23132!/:?]
+	at net.minecraft.server.MinecraftServer.m_129961_(MinecraftServer.java:782) ~[server-1.18.2-20220404.173914-srg.jar%23132!/:?]
+	at net.minecraft.server.MinecraftServer.m_7245_(MinecraftServer.java:776) ~[server-1.18.2-20220404.173914-srg.jar%23132!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_18699_(BlockableEventLoop.java:116) ~[server-1.18.2-20220404.173914-srg.jar%23132!/:?]
+	at net.minecraft.server.MinecraftServer.m_130012_(MinecraftServer.java:761) ~[server-1.18.2-20220404.173914-srg.jar%23132!/:?]
+	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:689) ~[server-1.18.2-20220404.173914-srg.jar%23132!/:?]
+	at net.minecraft.server.MinecraftServer.m_177918_(MinecraftServer.java:261) ~[server-1.18.2-20220404.173914-srg.jar%23132!/:?]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+[31Dec2024 15:12:21.220] [Worker-Main-25/WARN] [yungsextras/]: Failed to create invalid feature yungsextras:swamp/arch/swamp_double_arch_7
+[31Dec2024 15:12:38.444] [Worker-Main-25/WARN] [yungsextras/]: Failed to create invalid feature yungsextras:swamp/arch/swamp_double_arch_6
+[31Dec2024 15:12:42.141] [Worker-Main-23/WARN] [yungsextras/]: Failed to create invalid feature yungsextras:swamp/arch/swamp_double_arch_19
+[31Dec2024 15:12:48.481] [Worker-Main-24/WARN] [yungsextras/]: Failed to create invalid feature yungsextras:swamp/arch/swamp_double_arch_19
+[31Dec2024 15:12:49.168] [Worker-Main-24/WARN] [yungsextras/]: Failed to create invalid feature yungsextras:swamp/arch/swamp_double_arch_4
+[31Dec2024 15:12:50.276] [Worker-Main-23/WARN] [yungsextras/]: Failed to create invalid feature yungsextras:swamp/arch/swamp_double_arch_2
+[31Dec2024 15:12:50.634] [Worker-Main-24/WARN] [yungsextras/]: Failed to create invalid feature yungsextras:swamp/arch/swamp_double_arch_20
+[31Dec2024 15:12:55.345] [Worker-Main-25/WARN] [yungsextras/]: Failed to create invalid feature yungsextras:swamp/arch/swamp_arch_11
+[31Dec2024 15:13:00.884] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/Explosion$BlockInteraction
+[31Dec2024 15:13:09.724] [Worker-Main-23/WARN] [yungsextras/]: Failed to create invalid feature yungsextras:swamp/arch/swamp_double_arch_5
+[31Dec2024 15:13:12.169] [Worker-Main-25/WARN] [yungsextras/]: Failed to create invalid feature yungsextras:swamp/arch/swamp_double_arch_15
+[31Dec2024 15:13:13.345] [Worker-Main-25/WARN] [yungsextras/]: Failed to create invalid feature yungsextras:swamp/arch/swamp_double_arch_3
+[31Dec2024 15:13:34.316] [Worker-Main-24/WARN] [yungsextras/]: Failed to create invalid feature yungsextras:swamp/arch/swamp_double_arch_6
+[31Dec2024 15:13:37.006] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2034ms or 40 ticks behind
+[31Dec2024 15:13:37.283] [Worker-Main-24/WARN] [yungsextras/]: Failed to create invalid feature yungsextras:swamp/arch/swamp_double_arch_13
+[31Dec2024 15:13:51.799] [Thread-50/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/levelgen/structure/StructureCheckResult
+[31Dec2024 15:14:00.190] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 8218ms or 164 ticks behind
+[31Dec2024 15:14:03.304] [Worker-Main-24/WARN] [yungsextras/]: Failed to create invalid feature yungsextras:swamp/arch/swamp_double_arch_2
+[31Dec2024 15:14:13.466] [Worker-Main-25/WARN] [yungsextras/]: Failed to create invalid feature yungsextras:swamp/arch/swamp_double_arch_20
+[31Dec2024 15:14:26.079] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 10908ms or 218 ticks behind
+[31Dec2024 15:14:30.922] [Worker-Main-23/WARN] [yungsextras/]: Failed to create invalid feature yungsextras:swamp/arch/swamp_double_arch_19
+[31Dec2024 15:14:30.964] [Worker-Main-24/WARN] [yungsextras/]: Failed to create invalid feature yungsextras:swamp/arch/swamp_double_arch_19
+[31Dec2024 15:14:32.300] [Worker-Main-24/WARN] [yungsextras/]: Failed to create invalid feature yungsextras:swamp/arch/swamp_double_arch_12
+[31Dec2024 15:14:43.514] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2442ms or 48 ticks behind
+[31Dec2024 15:16:08.172] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: CT4724 has made the advancement [Cover Me with Diamonds]
+[31Dec2024 15:17:09.066] [Server thread/FATAL] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/Minecraft for invalid dist DEDICATED_SERVER
+[31Dec2024 15:17:09.067] [Server thread/ERROR] [net.minecraft.network.protocol.PacketUtils/]: Failed to handle packet net.minecraft.network.protocol.game.ServerboundInteractPacket@76e72385, suppressing error
+java.lang.RuntimeException: Attempted to load class net/minecraft/client/Minecraft for invalid dist DEDICATED_SERVER
+	at net.minecraftforge.fml.loading.RuntimeDistCleaner.processClassWithFlags(RuntimeDistCleaner.java:57) ~[fmlloader-1.18.2-40.2.17.jar%2318!/:1.0]
+	at cpw.mods.modlauncher.LaunchPluginHandler.offerClassNodeToPlugins(LaunchPluginHandler.java:88) ~[modlauncher-9.1.3.jar%235!/:?]
+	at cpw.mods.modlauncher.ClassTransformer.transform(ClassTransformer.java:120) ~[modlauncher-9.1.3.jar%235!/:?]
+	at cpw.mods.modlauncher.TransformingClassLoader.maybeTransformClassBytes(TransformingClassLoader.java:50) ~[modlauncher-9.1.3.jar%235!/:?]
+	at cpw.mods.cl.ModuleClassLoader.readerToClass(ModuleClassLoader.java:113) ~[securejarhandler-1.0.8.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.lambda$findClass$15(ModuleClassLoader.java:219) ~[securejarhandler-1.0.8.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.loadFromModule(ModuleClassLoader.java:229) ~[securejarhandler-1.0.8.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.findClass(ModuleClassLoader.java:219) ~[securejarhandler-1.0.8.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.loadClass(ModuleClassLoader.java:135) ~[securejarhandler-1.0.8.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:526) ~[?:?]
+	at net.minecraftforge.network.simple.SimpleChannel.sendToServer(SimpleChannel.java:96) ~[forge-1.18.2-40.2.17-universal.jar%23137!/:?]
+	at com.GACMD.isleofberk.entity.dragons.terrible_terror.TerribleTerror.ridePlayer(TerribleTerror.java:446) ~[isleofberk-1.2.0.jar%2394!/:1.2.0]
+	at com.GACMD.isleofberk.entity.dragons.terrible_terror.TerribleTerror.m_6071_(TerribleTerror.java:393) ~[isleofberk-1.2.0.jar%2394!/:1.2.0]
+	at net.minecraft.world.entity.Mob.m_6096_(Mob.java:1054) ~[server-1.18.2-20220404.173914-srg.jar%23132!/:?]
+	at net.minecraft.world.entity.player.Player.m_36157_(Player.java:968) ~[server-1.18.2-20220404.173914-srg.jar%23132!/:?]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl$1.m_143678_(ServerGamePacketListenerImpl.java:1228) ~[server-1.18.2-20220404.173914-srg.jar%23132!/:?]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl$1.m_142299_(ServerGamePacketListenerImpl.java:1239) ~[server-1.18.2-20220404.173914-srg.jar%23132!/:?]
+	at net.minecraft.network.protocol.game.ServerboundInteractPacket$InteractionAction.m_142457_(ServerboundInteractPacket.java:116) ~[server-1.18.2-20220404.173914-srg.jar%23132!/:?]
+	at net.minecraft.network.protocol.game.ServerboundInteractPacket.m_179617_(ServerboundInteractPacket.java:66) ~[server-1.18.2-20220404.173914-srg.jar%23132!/:?]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.m_6946_(ServerGamePacketListenerImpl.java:1224) ~[server-1.18.2-20220404.173914-srg.jar%23132!/:?]
+	at net.minecraft.network.protocol.game.ServerboundInteractPacket.m_5797_(ServerboundInteractPacket.java:53) ~[server-1.18.2-20220404.173914-srg.jar%23132!/:?]
+	at net.minecraft.network.protocol.game.ServerboundInteractPacket.m_5797_(ServerboundInteractPacket.java:13) ~[server-1.18.2-20220404.173914-srg.jar%23132!/:?]
+	at net.minecraft.network.protocol.PacketUtils.m_131356_(PacketUtils.java:22) ~[server-1.18.2-20220404.173914-srg.jar%23132!/:?]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[server-1.18.2-20220404.173914-srg.jar%23132!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:157) ~[server-1.18.2-20220404.173914-srg.jar%23132!/:?]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23) ~[server-1.18.2-20220404.173914-srg.jar%23132!/:?]
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:799) ~[server-1.18.2-20220404.173914-srg.jar%23132!/:?]
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:164) ~[server-1.18.2-20220404.173914-srg.jar%23132!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:131) ~[server-1.18.2-20220404.173914-srg.jar%23132!/:?]
+	at net.minecraft.server.MinecraftServer.m_129961_(MinecraftServer.java:782) ~[server-1.18.2-20220404.173914-srg.jar%23132!/:?]
+	at net.minecraft.server.MinecraftServer.m_7245_(MinecraftServer.java:776) ~[server-1.18.2-20220404.173914-srg.jar%23132!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_18699_(BlockableEventLoop.java:116) ~[server-1.18.2-20220404.173914-srg.jar%23132!/:?]
+	at net.minecraft.server.MinecraftServer.m_130012_(MinecraftServer.java:761) ~[server-1.18.2-20220404.173914-srg.jar%23132!/:?]
+	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:689) ~[server-1.18.2-20220404.173914-srg.jar%23132!/:?]
+	at net.minecraft.server.MinecraftServer.m_177918_(MinecraftServer.java:261) ~[server-1.18.2-20220404.173914-srg.jar%23132!/:?]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+[31Dec2024 15:17:18.422] [Worker-Main-24/WARN] [yungsextras/]: Failed to create invalid feature yungsextras:swamp/arch/swamp_double_arch_17
+[31Dec2024 15:17:33.432] [Worker-Main-23/WARN] [yungsextras/]: Failed to create invalid feature yungsextras:swamp/arch/swamp_double_arch_11
+[31Dec2024 15:17:43.511] [Worker-Main-24/WARN] [yungsextras/]: Failed to create invalid feature yungsextras:swamp/arch/swamp_double_arch_13
+[31Dec2024 15:18:09.182] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/entity/animal/axolotl/Axolotl$Variant
+[31Dec2024 15:18:30.306] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting ht/treechop/common/properties/ChoppedLogShape
+[31Dec2024 15:18:30.310] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting ht/treechop/common/util/FaceShape
+[31Dec2024 15:19:58.796] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting yesman/epicfight/network/server/SPSetSkillValue$Target
+[31Dec2024 15:20:00.550] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting ovh/corail/tombstone/helper/LangKey
+[31Dec2024 15:20:00.557] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: CT4724 has reached the goal [Strong or Careful]
+[31Dec2024 15:20:00.559] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: CT4724 couldn't take Pyromancer's heat
+[31Dec2024 15:20:00.564] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting ovh/corail/tombstone/helper/SpawnHelper$SpawnResult
+[31Dec2024 15:20:00.578] [Server thread/INFO] [tombstone/]: The player CT4724 has successfully been saved
+[31Dec2024 15:20:01.828] [Server thread/WARN] [treechop/]: Player ServerPlayer['CT4724'/622, l='ServerLevel[world]', x=-1988.77, y=67.00, z=2007.43, removed=KILLED] is missing chop settings
+[31Dec2024 15:20:05.586] [Server thread/INFO] [com.teampotato.redirector.Redirector/]: Redirecting ovh/corail/tombstone/item/ItemCastableMagic$CastingTarget
+[31Dec2024 15:20:43.678] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: CT4724 was incinerated by Pyromancer's burning dash
+[31Dec2024 15:20:43.696] [Server thread/INFO] [tombstone/]: The player CT4724 has successfully been saved
+[31Dec2024 15:20:44.875] [Server thread/WARN] [treechop/]: Player ServerPlayer['CT4724'/622, l='ServerLevel[world]', x=-1988.41, y=67.00, z=2009.69, removed=KILLED] is missing chop settings
+[31Dec2024 15:20:51.351] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Ignoring UseItemOnPacket from CT4724: hit position BlockPos{x=-1466, y=66, z=1416} too far away from player BlockPos{x=-1992, y=68, z=2009}.
+[31Dec2024 15:21:00.491] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: CT4724 couldn't take Pyromancer's heat
+[31Dec2024 15:21:00.497] [Server thread/INFO] [tombstone/]: The player CT4724 has successfully been saved
+[31Dec2024 15:21:01.675] [Server thread/WARN] [treechop/]: Player ServerPlayer['CT4724'/622, l='ServerLevel[world]', x=-1992.04, y=67.00, z=2006.23, removed=KILLED] is missing chop settings
+[31Dec2024 15:21:23.842] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: CT4724 couldn't take Pyromancer's heat
+[31Dec2024 15:21:23.848] [Server thread/INFO] [tombstone/]: The player CT4724 has successfully been saved
+[31Dec2024 15:21:25.097] [Server thread/WARN] [treechop/]: Player ServerPlayer['CT4724'/622, l='ServerLevel[world]', x=-1992.81, y=67.06, z=2010.54, removed=KILLED] is missing chop settings
+[31Dec2024 15:21:30.865] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Ignoring UseItemOnPacket from CT4724: hit position BlockPos{x=-1470, y=67, z=1420} too far away from player BlockPos{x=-1994, y=68, z=2010}.
+[31Dec2024 15:21:30.995] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Ignoring UseItemOnPacket from CT4724: hit position BlockPos{x=-1470, y=67, z=1420} too far away from player BlockPos{x=-1994, y=68, z=2010}.
+[31Dec2024 15:23:13.221] [Server thread/INFO] [sereneseasons/]: Season time skipped by 6721 in minecraft:overworld
+[31Dec2024 15:23:13.238] [Server thread/INFO] [sereneseasons/]: Season time skipped by 6721 in minecraft:the_nether
+[31Dec2024 15:23:13.238] [Server thread/INFO] [sereneseasons/]: Season time skipped by 6721 in minecraft:the_end
+[31Dec2024 15:23:19.502] [Server thread/FATAL] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/Minecraft for invalid dist DEDICATED_SERVER
+[31Dec2024 15:23:19.502] [Server thread/ERROR] [net.minecraft.network.protocol.PacketUtils/]: Failed to handle packet net.minecraft.network.protocol.game.ServerboundInteractPacket@325620c1, suppressing error
+java.lang.RuntimeException: Attempted to load class net/minecraft/client/Minecraft for invalid dist DEDICATED_SERVER
+	at net.minecraftforge.fml.loading.RuntimeDistCleaner.processClassWithFlags(RuntimeDistCleaner.java:57) ~[fmlloader-1.18.2-40.2.17.jar%2318!/:1.0]
+	at cpw.mods.modlauncher.LaunchPluginHandler.offerClassNodeToPlugins(LaunchPluginHandler.java:88) ~[modlauncher-9.1.3.jar%235!/:?]
+	at cpw.mods.modlauncher.ClassTransformer.transform(ClassTransformer.java:120) ~[modlauncher-9.1.3.jar%235!/:?]
+	at cpw.mods.modlauncher.TransformingClassLoader.maybeTransformClassBytes(TransformingClassLoader.java:50) ~[modlauncher-9.1.3.jar%235!/:?]
+	at cpw.mods.cl.ModuleClassLoader.readerToClass(ModuleClassLoader.java:113) ~[securejarhandler-1.0.8.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.lambda$findClass$15(ModuleClassLoader.java:219) ~[securejarhandler-1.0.8.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.loadFromModule(ModuleClassLoader.java:229) ~[securejarhandler-1.0.8.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.findClass(ModuleClassLoader.java:219) ~[securejarhandler-1.0.8.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.loadClass(ModuleClassLoader.java:135) ~[securejarhandler-1.0.8.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:526) ~[?:?]
+	at net.minecraftforge.network.simple.SimpleChannel.sendToServer(SimpleChannel.java:96) ~[forge-1.18.2-40.2.17-universal.jar%23137!/:?]
+	at com.GACMD.isleofberk.entity.dragons.terrible_terror.TerribleTerror.ridePlayer(TerribleTerror.java:446) ~[isleofberk-1.2.0.jar%2394!/:1.2.0]
+	at com.GACMD.isleofberk.entity.dragons.terrible_terror.TerribleTerror.m_6071_(TerribleTerror.java:393) ~[isleofberk-1.2.0.jar%2394!/:1.2.0]
+	at net.minecraft.world.entity.Mob.m_6096_(Mob.java:1054) ~[server-1.18.2-20220404.173914-srg.jar%23132!/:?]
+	at net.minecraft.world.entity.player.Player.m_36157_(Player.java:968) ~[server-1.18.2-20220404.173914-srg.jar%23132!/:?]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl$1.m_143678_(ServerGamePacketListenerImpl.java:1228) ~[server-1.18.2-20220404.173914-srg.jar%23132!/:?]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl$1.m_142299_(ServerGamePacketListenerImpl.java:1239) ~[server-1.18.2-20220404.173914-srg.jar%23132!/:?]
+	at net.minecraft.network.protocol.game.ServerboundInteractPacket$InteractionAction.m_142457_(ServerboundInteractPacket.java:116) ~[server-1.18.2-20220404.173914-srg.jar%23132!/:?]
+	at net.minecraft.network.protocol.game.ServerboundInteractPacket.m_179617_(ServerboundInteractPacket.java:66) ~[server-1.18.2-20220404.173914-srg.jar%23132!/:?]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.m_6946_(ServerGamePacketListenerImpl.java:1224) ~[server-1.18.2-20220404.173914-srg.jar%23132!/:?]
+	at net.minecraft.network.protocol.game.ServerboundInteractPacket.m_5797_(ServerboundInteractPacket.java:53) ~[server-1.18.2-20220404.173914-srg.jar%23132!/:?]
+	at net.minecraft.network.protocol.game.ServerboundInteractPacket.m_5797_(ServerboundInteractPacket.java:13) ~[server-1.18.2-20220404.173914-srg.jar%23132!/:?]
+	at net.minecraft.network.protocol.PacketUtils.m_131356_(PacketUtils.java:22) ~[server-1.18.2-20220404.173914-srg.jar%23132!/:?]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[server-1.18.2-20220404.173914-srg.jar%23132!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:157) ~[server-1.18.2-20220404.173914-srg.jar%23132!/:?]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23) ~[server-1.18.2-20220404.173914-srg.jar%23132!/:?]
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:799) ~[server-1.18.2-20220404.173914-srg.jar%23132!/:?]
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:164) ~[server-1.18.2-20220404.173914-srg.jar%23132!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:131) ~[server-1.18.2-20220404.173914-srg.jar%23132!/:?]
+	at net.minecraft.server.MinecraftServer.m_129961_(MinecraftServer.java:782) ~[server-1.18.2-20220404.173914-srg.jar%23132!/:?]
+	at net.minecraft.server.MinecraftServer.m_7245_(MinecraftServer.java:776) ~[server-1.18.2-20220404.173914-srg.jar%23132!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_18701_(BlockableEventLoop.java:140) ~[server-1.18.2-20220404.173914-srg.jar%23132!/:?]
+	at net.minecraft.server.MinecraftServer.m_130012_(MinecraftServer.java:762) ~[server-1.18.2-20220404.173914-srg.jar%23132!/:?]
+	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:689) ~[server-1.18.2-20220404.173914-srg.jar%23132!/:?]
+	at net.minecraft.server.MinecraftServer.m_177918_(MinecraftServer.java:261) ~[server-1.18.2-20220404.173914-srg.jar%23132!/:?]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+[31Dec2024 15:29:21.254] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: CT4724 has made the advancement [Magery]
+[31Dec2024 15:34:46.221] [Server thread/INFO] [sereneseasons/]: Season time skipped by 10141 in minecraft:overworld
+[31Dec2024 15:34:46.241] [Server thread/INFO] [sereneseasons/]: Season time skipped by 10141 in minecraft:the_nether
+[31Dec2024 15:34:46.242] [Server thread/INFO] [sereneseasons/]: Season time skipped by 10141 in minecraft:the_end
